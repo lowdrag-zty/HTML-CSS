@@ -1,0 +1,9 @@
+div {
+  color: aqua;
+  background: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+span {
+  text-transform: uppercase;
+}

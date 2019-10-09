@@ -1,0 +1,13 @@
+ul li {
+  list-style-type: georgian; /* 这是设置unordered list的bullet point图案是什么 */
+  background: black;
+  color: red;
+  display: block;
+  padding: 10px 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  width: 40px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: inline-block; /* 保持inline的样式 */
+}

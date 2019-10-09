@@ -1,0 +1,20 @@
+.relative {
+  font-size: 2em;
+  /* font-size: 2rem; rem is always relative to the root's font-size, which html's size */
+}
+
+html {
+  font-size: 16px;
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+div {
+  font-size: 32px;
+}
+
+/* browser中字符的默认size就是16pixels */
+/* 而 1em = 16pixels */
+/* 同时，em is always relative to the parent's size. */

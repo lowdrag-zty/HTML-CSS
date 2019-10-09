@@ -1,0 +1,44 @@
+/* Google Fonts的使用方法：首先，打开Google Fonts; 然后， 把@import复制到CSS中*/
+/* 接着，在external css中写对应的font-family即可 */
+/* 注意，选中多种fonts之后自动生成一个@imoprt！！！*/
+/*
+font-weight
+font-style
+text-align
+text-indent
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Lobster|Turret+Road&display=swap");
+
+body {
+  font-family: "Lobster", cursive;
+  font-weight: 80;
+  font-style: oblique;
+  text-align: center;
+  /* 上面是两个可选的属性：font-weight描述粗细，font-style描述斜体，粗体... */
+}
+h1 {
+  font-family: "Turret Road", cursive;
+  text-align: center;
+  text-indent: 10em; /*缩进*/
+  text-transform: lowercase;
+  text-decoration: overline;
+}
+
+h2 {
+  line-height: 1.5em;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  text-decoration: underline;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  text-decoration: line-through;
+}

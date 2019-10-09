@@ -1,0 +1,23 @@
+p {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+/*这时，会调用最后定义的样式*/
+
+div {
+  color: yellow;
+}
+
+.black {
+  color: black;
+}
+/* class比p更加具体specific */
+
+* {
+  color: rgb(16, 65, 65);
+}
+/* universal selector 是最不specific的 */

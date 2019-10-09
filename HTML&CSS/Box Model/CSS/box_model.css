@@ -1,0 +1,31 @@
+/* CSS Box Model */
+/* Margin - Border - Padding - Content */
+/* Border-Radius,用于使边框圆滑化 */
+
+h1 {
+  background: aqua;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-right: 50px; /* margin用于实现模块与模块之间，或者是模块与网页边界之间的距离 */
+  margin-left: 50px;
+  margin-bottom: 0px;
+  border: 2px solid black;
+  border-top-style: dashed;
+  border-radius: 20px;
+}
+
+p {
+  background: yellow;
+  padding: 20px 50px; /*有两种简写方法：上下 + 左右*/ /*或者：上+右+下+左*/
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  margin-top: 0px; /* 可以使用negative value来实现重叠的效果 */
+  border: 2px solid red;
+  border-bottom-style: dashed;
+  border-radius: 20px; /* 边框圆滑化 */
+}

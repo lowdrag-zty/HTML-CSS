@@ -1,0 +1,10 @@
+/* outline & outset */
+
+p {
+  cursor: pointer;
+  outline: 2px solid black;
+  outline-offset: 5px;
+  background: blueviolet;
+  text-align: center;
+  font-size: 20px;
+}

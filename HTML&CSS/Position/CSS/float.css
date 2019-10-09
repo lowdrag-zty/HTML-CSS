@@ -1,0 +1,28 @@
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 400px;
+  width: 33.33333%;
+  float: right;
+}
+
+.one {
+  background: rebeccapurple;
+}
+
+.two {
+  background: red;
+}
+
+.three {
+  background: green;
+}
+
+button {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background: rgba(206, 63, 44, 0.849);
+  color: bisque;
+}

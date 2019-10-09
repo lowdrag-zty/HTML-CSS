@@ -1,0 +1,25 @@
+.block {
+  background: blue;
+  color: red;
+  /* display: inline; */
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+/* For block elements, they will always start with a new line and waste unused spaces. */
+/* When shown on the webpage, they extend from left all the way to the right */
+
+.inline {
+  background: green;
+  color: yellow;
+  display: block;
+}
+/* For inline elements, they will always use the spaces properly and won't start new lines. */
+
+/* 但是，对于block或者是inline, 都可以使用display来改变它们的显示结果 */
+
+a {
+  background: black;
+  text-align: center;
+  color: aqua;
+}

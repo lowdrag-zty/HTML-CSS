@@ -1,0 +1,29 @@
+div {
+  background: green;
+  height: 300px;
+  width: 300px;
+  margin-top: 300px;
+  margin-left: 700px;
+  animation: ani 10s infinite;
+}
+
+@keyframes ani {
+  0% {
+    transform: translateX(100px);
+    background: red;
+  }
+  25% {
+    transform: translateY(100px);
+    background: yellow;
+  }
+  50% {
+    transform: scale(2);
+  }
+  75% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: scale(0.5);
+    transform: translateX(100px);
+  }
+}

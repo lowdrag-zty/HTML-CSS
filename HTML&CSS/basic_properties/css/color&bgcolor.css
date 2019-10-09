@@ -1,0 +1,35 @@
+/* background 的后面可以是image或者color */
+/* background color 就只有color了 */
+
+#first {
+  background-color: aqua;
+  color: burlywood;
+}
+
+#second {
+  background: black;
+  color: aquamarine;
+}
+
+/* RGB：Red, Green, Blue 0-255 */
+p {
+  color: rgb(0, 0, 0); /*黑色*/
+  color: rgb(255, 255, 255); /*白色*/
+}
+
+body {
+  background: rgb(37, 199, 199);
+}
+
+/* RGBA opacity&transparency 取值为0-1*/
+
+h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* hex value */
+
+h4 {
+  color: #fff;
+  color: #ff0000;
+}

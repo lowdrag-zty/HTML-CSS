@@ -1,0 +1,6 @@
+.banner {
+  background-color: blueviolet;
+  min-height: calc(100vh - 200px);
+}
+
+/* 使用calc可以精确表示出高度宽度 */

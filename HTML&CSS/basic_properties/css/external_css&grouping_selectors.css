@@ -1,0 +1,21 @@
+h2 {
+  color: aquamarine;
+}
+/*  */
+
+p {
+  color: grey;
+}
+
+h3,
+h4 {
+  color: brown;
+}
+/* grouping selectors */
+
+#line {
+  color: red;
+  background: black;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

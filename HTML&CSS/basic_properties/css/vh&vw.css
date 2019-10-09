@@ -1,0 +1,7 @@
+/* vw and vh could be used to change the size according to the screen's current size */
+
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background-color: aqua;
+}

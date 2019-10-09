@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+div {
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.first {
+  background: url(../Images/beach-beverage-caribbean-cocktail-68672.jpeg);
+  color: rgba(56, 55, 55, 0.322);
+  background-attachment: fixed;
+}
+
+.second {
+  background: url(../Images/pexels-photo-887821.jpeg);
+  background-attachment: fixed;
+  color: rgba(255, 167, 5, 0.74);
+}
+
+.third {
+  background: url(../Images/pexels-photo-1858161.jpeg) center/cover fixed
+    no-repeat;
+  /* Notice, this is the shortcut of writing basic background properties! */
+  color: bisque;
+}

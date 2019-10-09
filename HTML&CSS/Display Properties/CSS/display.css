@@ -1,0 +1,18 @@
+.opacity-0 {
+  opacity: 0.5;
+  background: blue;
+}
+
+.opacity-1 {
+  opacity: 0;
+  background: blue;
+}
+
+.visibility {
+  visibility: hidden;
+  background: blue;
+}
+
+/* 首先，注意比对 color：rgba */
+/* 其次，display:none是在检查元素时也看不到 */
+/* visibility:hidden 和 opacity：0 则看不到但可以选中 */
